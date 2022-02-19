@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 	"flag"
+	"github.com/elastic/terraform-provider-elasticstack/elasticstack"
 	"log"
 
-	"github.com/elastic/terraform-provider-elasticstack/internal/provider"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
 )
 
@@ -26,7 +26,7 @@ func main() {
 	flag.BoolVar(&debugMode, "debug", false, "set to true to run the provider with support for debuggers like delve")
 	flag.Parse()
 
-	opts := &plugin.ServeOpts{ProviderFunc: provider.New(version)}
+	opts := &plugin.ServeOpts{ProviderFunc: elasticstack.New(version)}
 
 	if debugMode {
 		err := plugin.Debug(context.Background(), "registry.terraform.io/elastic/elasticstack", opts)
