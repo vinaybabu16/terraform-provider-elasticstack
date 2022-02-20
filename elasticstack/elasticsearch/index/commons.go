@@ -2,7 +2,7 @@ package index
 
 import (
 	"encoding/json"
-	"github.com/elastic/terraform-provider-elasticstack/elasticstack/models"
+	"github.com/vinaybabu16/terraform-provider-elasticstack/elasticstack/models"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"

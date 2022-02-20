@@ -2,8 +2,8 @@ package cluster_test
 
 import (
 	"fmt"
-	"github.com/elastic/terraform-provider-elasticstack/elasticstack/acctest"
-	"github.com/elastic/terraform-provider-elasticstack/elasticstack/clients"
+	"github.com/vinaybabu16/terraform-provider-elasticstack/elasticstack/acctest"
+	"github.com/vinaybabu16/terraform-provider-elasticstack/elasticstack/clients"
 	"testing"
 
 	sdkacctest "github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"

@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"flag"
-	"github.com/elastic/terraform-provider-elasticstack/elasticstack"
+	"github.com/vinaybabu16/terraform-provider-elasticstack/elasticstack"
 	"log"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"

@@ -3,7 +3,7 @@ package utils_test
 import (
 	"testing"
 
-	"github.com/elastic/terraform-provider-elasticstack/internal/utils"
+	"github.com/vinaybabu16/terraform-provider-elasticstack/internal/utils"
 )
 
 func TestFlattenMap(t *testing.T) {

@@ -1,7 +1,7 @@
 package security_test
 
 import (
-	"github.com/elastic/terraform-provider-elasticstack/elasticstack/acctest"
+	"github.com/vinaybabu16/terraform-provider-elasticstack/elasticstack/acctest"
 	"testing"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"

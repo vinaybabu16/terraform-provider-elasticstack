@@ -3,13 +3,13 @@ package cluster
 import (
 	"context"
 	"fmt"
-	"github.com/elastic/terraform-provider-elasticstack/elasticstack/clients"
-	"github.com/elastic/terraform-provider-elasticstack/elasticstack/models"
+	"github.com/vinaybabu16/terraform-provider-elasticstack/elasticstack/clients"
+	"github.com/vinaybabu16/terraform-provider-elasticstack/elasticstack/models"
 	"reflect"
 	"regexp"
 	"strconv"
 
-	"github.com/elastic/terraform-provider-elasticstack/internal/utils"
+	"github.com/vinaybabu16/terraform-provider-elasticstack/internal/utils"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"

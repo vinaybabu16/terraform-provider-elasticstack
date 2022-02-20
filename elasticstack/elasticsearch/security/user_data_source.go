@@ -3,9 +3,9 @@ package security
 import (
 	"context"
 	"encoding/json"
-	"github.com/elastic/terraform-provider-elasticstack/elasticstack/clients"
+	"github.com/vinaybabu16/terraform-provider-elasticstack/elasticstack/clients"
 
-	"github.com/elastic/terraform-provider-elasticstack/internal/utils"
+	"github.com/vinaybabu16/terraform-provider-elasticstack/internal/utils"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 )

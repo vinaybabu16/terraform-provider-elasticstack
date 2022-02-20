@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/elastic/terraform-provider-elasticstack/elasticstack/models"
+	"github.com/vinaybabu16/terraform-provider-elasticstack/elasticstack/models"
 	"log"
 	"net/http"
 	"strings"
 
-	"github.com/elastic/terraform-provider-elasticstack/internal/utils"
+	"github.com/vinaybabu16/terraform-provider-elasticstack/internal/utils"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 )
 

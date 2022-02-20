@@ -1,10 +1,10 @@
 package elasticstack
 
 import (
-	"github.com/elastic/terraform-provider-elasticstack/elasticstack/clients"
-	cluster2 "github.com/elastic/terraform-provider-elasticstack/elasticstack/elasticsearch/cluster"
-	index2 "github.com/elastic/terraform-provider-elasticstack/elasticstack/elasticsearch/index"
-	security2 "github.com/elastic/terraform-provider-elasticstack/elasticstack/elasticsearch/security"
+	"github.com/vinaybabu16/terraform-provider-elasticstack/elasticstack/clients"
+	cluster2 "github.com/vinaybabu16/terraform-provider-elasticstack/elasticstack/elasticsearch/cluster"
+	index2 "github.com/vinaybabu16/terraform-provider-elasticstack/elasticstack/elasticsearch/index"
+	security2 "github.com/vinaybabu16/terraform-provider-elasticstack/elasticstack/elasticsearch/security"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 )
 
