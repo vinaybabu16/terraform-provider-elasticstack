@@ -5,8 +5,8 @@ import (
 	"flag"
 	"log"
 
-	"github.com/elastic/terraform-provider-elasticstack/internal/provider"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
+	"github.com/vinaybabu16/terraform-provider-elasticstack/elasticstack/provider"
 )
 
 //go:generate terraform fmt -recursive ./examples/

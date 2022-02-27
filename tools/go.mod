@@ -1,4 +1,4 @@
-module github.com/elastic/terraform-provider-elasticstack/tools
+module github.com/vinaybabu16/terraform-provider-elasticstack/elasticstack/providertools
 
 go 1.17
 
